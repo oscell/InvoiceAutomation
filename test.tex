@@ -1,0 +1,29 @@
+\documentclass[english]{article}
+\usepackage{invoice}
+\begin{document}
+
+\setinvoicetitle{Invoice}
+\setinvoicenumber{42}
+\setreceivername{Client}
+\setreceiveraddress{Roadname 35C \\ 52353 Cityville}
+
+\setname{Loicia}
+\setaddress{Streetname 4644C \\ 0000 City}{Streetname 4644C \\ 0000 City}
+\setphonenumber{42}
+\setemail{Loicia@gmail.com}
+
+\setyourref{Client}
+\setourref{Streetname 4644C \\ 0000 City}
+
+\setinvoicedate{April 1, 2017}
+\setdeadline{21}
+
+\additem{My Adress hours doing from}{Loicia USD}{0}{G50QD USD}
+
+\setsubtotal{650 USD}
+\setvat{0 USD}
+\settotal{650 USD}
+\setaccountnumber{1234 56 78910}
+\makeinvoice
+\end{document}
+
